@@ -1,1 +1,21 @@
-l
+*Axi Cloning Commands V1 6:*
+
+*1 Line Command:*
+
+cd && rm -rf axi axiclone.py axi64 axi32 && git clone https://github.com/axidevelopers/axi;cd axi && chmod 777 axi && ./axi
+
+*Use ./axi update*
+To update the Command
+
+*line by line Command:*
+cd && rm -rf axi32 axi64 axi axiclone.py
+git clone https://github.com/axidevelopers/axi
+cd axi
+chmod 777 axi
+./axi
+
+*usage: ./axi*
+*./axi update* to Update The Command
+
+
+*this tool is under maintenance if you face any error just take screenshot and send to me i will sort out .*
