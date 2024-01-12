@@ -14,7 +14,7 @@ FOR MORE TOOLS CONTACT ME BELOW:
 ## <b> A X I Commands : </b>
 
 <p> for First Time Use These Commands: </p>
-<br> <\br>
+
 ```
 $ pkg update
 $ pkg upgrade
@@ -42,4 +42,4 @@ pkg update && pkg upgrade && pkg install git && git clone https://github.com/axi
  
  [ i am currently Learning Python , Go , Shell Scripting , And Basics of Front end Development ]
 
-```
+
