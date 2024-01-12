@@ -1,0 +1,20 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+if [[ "$1" == "update" ]]; then
+    cd ~
+    rm -rf axi32 axi64 axi axi-install
+    echo " Installing [ A X I Update & Executables ] .."
+    git clone https://github.com/axidevelopers/axi
+    cd axi
+    chmod 777 axi-install
+    ./axi-install
+else
+    rm -rf axi32 axi64
+    echo " Installing [ A X I Update & Executables ] .."
+    cp axi-install /data/data/com.termux/files/usr/bin/axi-install
+    rm -rf axi-install
+    cp axi /data/data/com.termux/files/usr/bin/axi
+    cd /data/data/com.termux/files/usr/bin/
+    chmod +x axi axi-install
+    echo " [ A X I Latest Updated Version Has Been Installed U can Run By type : axi & axi-install update to update ] "
+fi
