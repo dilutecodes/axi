@@ -8,8 +8,8 @@ if [[ $current_os == *"aarch64"* ]]; then
         chmod 777 axi64
         ./axi64
     else
-        if [[ "$1" == "update" ]]; then
-            ./axi64 update
+        if [[ "$1" == "ip" ]]; then
+            ./axi64 ip
         else
             ./axi64
         fi
@@ -20,8 +20,8 @@ elif [[ $current_os == *"arm"* ]]; then
         chmod 777 axi32
         ./axi32
     else
-        if [[ "$1" == "update" ]]; then
-            ./axi32 update
+        if [[ "$1" == "ip" ]]; then
+            ./axi32 ip
         else
             ./axi32
         fi
